@@ -4,8 +4,8 @@ import Container from '../../Hooks/Container';
 const AboutUs = () => {
     return (
        
-         <div className='bg-[#7D0A0A]'>
-            <div className=' flex justify-evenly  items-center ml-40'>
+         <div className='bg-[#597E52] py-10'>
+            <div className=' flex justify-evenly  items-center '>
                 <div>
                     <img className=' w-96' src={img2} alt="" />
                 </div>

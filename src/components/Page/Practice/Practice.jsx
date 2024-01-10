@@ -49,41 +49,50 @@ const Practice = () => {
       >
         <SwiperSlide >
             <img className='w-[245px]' src={img1} alt="" />
-
+            <h1 className='  text-amber-600 font-bold text-2xl text-center bg-[#F8F4EC]   mr-9'>Aviation Law</h1>
+              <br />
         </SwiperSlide>
         <SwiperSlide>
             <img className='w-[245px]' src={img2} alt="" />
-
+            <h1 className='  text-amber-600 font-bold text-2xl text-center bg-[#F8F4EC]   mr-9'>Banking & Finance</h1>
+            
         </SwiperSlide>
         <SwiperSlide>
             <img className='w-[245px]' src={img3} alt="" />
-
+            <h1 className='  text-amber-600 font-bold text-2xl text-center bg-[#F8F4EC]   mr-9'>Corporate Law</h1>
+            
         </SwiperSlide>
         <SwiperSlide>
             <img className='w-[245px]' src={img4} alt="" />
-
+            <h1 className='  text-amber-600 font-bold text-2xl text-center bg-[#F8F4EC]   mr-9'>Commercial Law</h1>
+           
         </SwiperSlide>
         <SwiperSlide>
             <img className='w-[245px]' src={img5} alt="" />
-
+            <h1 className='  text-amber-600 font-bold text-2xl text-center bg-[#F8F4EC]   mr-9'>Criminal Law</h1>
+            
         </SwiperSlide>
         <SwiperSlide>
             <img className='w-[245px]' src={img6} alt="" />
-
+            <h1 className='  text-amber-600 font-bold text-2xl text-center bg-[#F8F4EC]   mr-9'>Employment Law</h1>
+            
         </SwiperSlide>
         <SwiperSlide>
             <img className='w-[245px]' src={img7} alt="" />
-
+            <h1 className='  text-amber-600 font-bold text-2xl text-center bg-[#F8F4EC]   mr-9'>Family Law</h1>
+            
         </SwiperSlide>
         <SwiperSlide>
             <img className='w-[245px]' src={img8} alt="" />
-
+            <h1 className='  text-amber-600 font-bold text-2xl text-center bg-[#F8F4EC]   mr-9'>Pro Bonno</h1>
+            
         </SwiperSlide>
         <SwiperSlide>
             <img className='w-[245px]' src={img9} alt="" />
-
+            <h1 className='  text-amber-600 font-bold text-2xl text-center bg-[#F8F4EC]   mr-9'>Tax Law</h1>
+            
         </SwiperSlide>
-        
+        <br />
       </Swiper>
       </div>
         </Container>

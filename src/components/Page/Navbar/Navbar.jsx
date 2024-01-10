@@ -1,4 +1,11 @@
 import { Link } from "react-router-dom";
+import { MdEmail,MdOutlinePhone } from "react-icons/md";
+import { FaYoutube } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import Container from "../../Hooks/Container";
+
+
 const Navbar = () => {
   const navLinks = (
     <>
@@ -38,9 +45,42 @@ const Navbar = () => {
     </>
   );
   return (
-   
-      <div>
-        <div className="navbar bg-[#7D0A0A] text-white">
+    <div className="bg-[#7D0A0A]">
+    <Container>
+    <div>
+      <div className="  text-white ">
+     
+      <div className="navbar-center flex ">
+    <a className=" ml-96 text-center text-3xl font-bold ">SIDDIKI & ASSOCIATES</a>
+    </div>
+    <div>
+      <div className=" flex justify-end items-center">
+      <MdOutlinePhone />
+          <span className=" mr-5">01793944999, 01600224388</span>
+        </div>
+        <div className=" flex justify-end items-center">
+        <MdEmail />
+          <span className=" mr-5">nazmulkhan416@gmail.com</span>
+        </div>
+        <br />
+       <div className=" flex  justify-end gap-4 items-center mr-20">
+       <div className=" flex   gap-4 ">
+        <FaYoutube /> 
+        </div>
+        <div className=" flex   ">
+       <FaLinkedin /> 
+        </div>
+        <div className=" flex   ">
+        <FaFacebook />
+        </div>
+       </div>
+       </div>
+      
+      </div>
+     
+      <div className="">
+        {/* second navbar */}
+        <div className="navbar   text-white">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -70,17 +110,19 @@ const Navbar = () => {
                 {navLinks}
               </ul>
             </div>
-            <a className="btn btn-ghost text-xl">SIDDIKI & ASSOCIATES</a>
+            <a className="btn btn-ghost text-xl"></a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">{navLinks}</ul>
           </div>
           <div className="navbar-end">
-            <a className="btn">Button</a>
+            {/* <a className="btn"></a> */}
           </div>
         </div>
       </div>
-    
+    </div>
+    </Container>
+    </div>
   );
 };
 
