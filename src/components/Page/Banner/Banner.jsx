@@ -1,17 +1,6 @@
 
-
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-
-// import './styles.css';
-
-// import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 import img1 from '../../../assets/banner/banner -1 .png'
 import img2 from '../../../assets/banner/banner -2 .png'
@@ -25,21 +14,25 @@ const Banner = () => {
        <Container>
          <div>
            <div>
-           <Swiper
-        cssMode={true}
-        navigation={true}
-        pagination={true}
-        mousewheel={true}
-        keyboard={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-        className="mySwiper"
-      >
-        <SwiperSlide><img className=' ml-14' src={img1} alt="" /></SwiperSlide>
-        <SwiperSlide><img className=' ml-14' src={img2} alt="" /></SwiperSlide>
-        <SwiperSlide><img className=' ml-14'src={img3} alt="" /></SwiperSlide>
-        <SwiperSlide><img className=' ml-14' src={img4} alt="" /></SwiperSlide>
-        
-      </Swiper>
+           <Carousel>
+                <div>
+                    <img src={img1} />
+                   
+                </div>
+                <div>
+                    <img src={img2} />
+                   
+                </div>
+                <div>
+                    <img src={img3} />
+                   
+                </div>
+                <div>
+                    <img src={img4} />
+                   
+                </div>
+                
+            </Carousel>
            </div>
         </div>
         </Container>

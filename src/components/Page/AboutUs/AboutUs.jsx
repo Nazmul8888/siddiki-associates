@@ -1,6 +1,7 @@
 import img2 from '../../../assets/image/about_thumbnail_673cfa.png'
 import Container from '../../Hooks/Container';
 
+
 const AboutUs = () => {
     return (
        

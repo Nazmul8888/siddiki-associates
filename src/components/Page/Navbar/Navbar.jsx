@@ -10,37 +10,37 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <Link to="/">HOME</Link>
+        <Link className=" hover:bg-[#FF004D]" to="/">HOME</Link>
       </li>
       <li>
-        <Link to="/ourTeam">OUR TEAM</Link>
+        <Link className=" hover:bg-[#FF004D]"  to="/ourTeam">OUR TEAM</Link>
       </li>
       <li>
-        <Link to="/photo">PHOTO</Link>
+        <Link className=" hover:bg-[#FF004D]"  to="/photo">PHOTO</Link>
       </li>
       <li>
-        <Link to="/practiceArea">PRACTICE AREA</Link>
+        <Link className=" hover:bg-[#FF004D]"  to="/practiceArea">PRACTICE AREA</Link>
       </li>
       <li>
-        <Link to="/ourClients">OUR CLIENTS</Link>
+        <Link className=" hover:bg-[#FF004D]"  to="/ourClients">OUR CLIENTS</Link>
       </li>
       <li>
-        <Link to="/library">LIBRARY</Link>
+        <Link className=" hover:bg-[#FF004D]"  to="/library">LIBRARY</Link>
       </li>
       <li>
-        <Link to="/reportedCase">REPORTED CASE</Link>
+        <Link className=" hover:bg-[#FF004D]"  to="/reportedCase">REPORTED CASE</Link>
       </li>
       <li>
-        <Link to="/articlesBlog">ARTICLES & BLOG</Link>
+        <Link className=" hover:bg-[#FF004D]"  to="/articlesBlog">ARTICLES & BLOG</Link>
       </li>
       <li>
-        <Link to="/faqS">FAQs</Link>
+        <Link className=" hover:bg-[#FF004D]"  to="/faqS">FAQs</Link>
       </li>
       <li>
-        <Link to="/applyNow">APPLY NOW</Link>
+        <Link className=" hover:bg-[#FF004D]"  to="/applyNow">APPLY NOW</Link>
       </li>
       <li>
-        <Link to="/contactUs">CONTACT US</Link>
+        <Link className=" hover:bg-[#FF004D]"  to="/contactUs">CONTACT US</Link>
       </li>
     </>
   );

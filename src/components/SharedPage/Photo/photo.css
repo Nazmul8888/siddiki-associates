@@ -1,0 +1,13 @@
+.pho{
+    position: absolute;
+    top: 66px;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    mix-blend-mode: overlay;
+    text-shadow: 5px 4px 11px rgb(0,0,0), 0 2px 5px rgb(0,0,0);
+    color: #ffffff;
+    text-align: center;
+}
