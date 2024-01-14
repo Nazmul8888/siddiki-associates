@@ -16,12 +16,27 @@ const Photo = () => {
         </div>
 
         <div className=' flex justify-evenly '>
+            <div>
             <img src={img1} alt="" />
+            <p className="text-sm  text-center p-2 bg-gray-700 text-white">CHAMBER</p>
+            </div>
+            <div>
             <img src={img2} alt="" />
+            <p className="text-sm  text-center p-2 bg-gray-700 text-white">CONFERENCES & SEMINARS</p>
+            </div>
+            <div>
             <img src={img3} alt="" />
+            <p className="text-sm  text-center p-2 bg-gray-700 text-white">LNJ TEAM</p>
+
+            </div>
+            <div>
             <img src={img4} alt="" />
+            <p className="text-sm  text-center p-2 bg-gray-700 text-white">OTHER</p>
+            </div>
         </div>
         </div>
+        <br />
+        <br />
         </Container>
     );
 };

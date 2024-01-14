@@ -3,7 +3,7 @@ import Container from "../Hooks/Container";
 
 const Footer = () => {
   return (
-    <div className="bg-[#7D0A0A]">
+    <div className="bg-purple-500">
       <Container>
         <div className="">
           <footer className="footer p-10  text-white  py-10 ">
