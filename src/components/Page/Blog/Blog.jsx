@@ -14,12 +14,12 @@ const Blog = () => {
         .then(data=> setArticle(data))
     },[])
     return (
-        <div className=" bg-orange-400 py-10">
+        <div className="  py-10">
         <Container>
              <div>
-         <h1 className="  text-4xl  text-[#940B92] font-bold">Articles / Blogs</h1>
+         <h1 className="  text-4xl  text-[#FFFFE4] font-bold">Articles / Blogs</h1>
             <br />
-            <p className=" font-serif text-black  font-[18px] ">Our lawyers are knowledgeable, compassionate, and always willing to go the extra mile to ensure the best possible outcome for our clients. <br /> Whether you are facing a legal challenge, seeking to protect your assets, or looking for advice on a business matter, we are here to assist.</p>
+            <p className=" font-serif text-[#FFFFE4] font-[18px] ">Our lawyers are knowledgeable, compassionate, and always willing to go the extra mile to ensure the best possible outcome for our clients. <br /> Whether you are facing a legal challenge, seeking to protect your assets, or looking for advice on a business matter, we are here to assist.</p>
 
         </div>
         <br />

@@ -27,7 +27,7 @@ import Container from '../../Hooks/Container';
 
 const Practice = () => {
     return (
-        <div className='bg-orange-500 py-10'>
+        <div >
         <Container>
             <div>
             <div>

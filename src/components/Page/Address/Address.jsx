@@ -34,7 +34,7 @@ const Address = () => {
                 <img  src="https://i.ibb.co/g4NjwBX/Screenshot-2024-01-14-122822.png" alt="" />  
             </div>  
             <form  className=" " >
-                <h1 className=" text-5xl font-bold font-mono">Ask a Question</h1>
+                <h1 className=" text-5xl font-bold text-[#FFFFE4] font-mono">Ask a Question</h1>
             <div className="md:flex mb-8 ">
                 <div className="form-control md:w-1/2">
                     <label className="label">
@@ -55,7 +55,7 @@ const Address = () => {
                     </label>
                 </div>
                 </div>
-                <div><textarea className="textarea textarea-info w-96" placeholder="Message"></textarea></div>
+                <div><textarea className="textarea textarea-info w-[450px] h-40" placeholder="Message"></textarea></div>
                 <div><button className="btn btn-info">SEND</button></div>
                 </form>
                 

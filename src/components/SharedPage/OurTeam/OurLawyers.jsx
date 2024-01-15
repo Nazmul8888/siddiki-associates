@@ -11,7 +11,7 @@ import img9 from '../../../assets/our Team/tahsina-ahmed-maliha_3ab2d6.png'
 import Container from '../../Hooks/Container'
 const OurLawyers = () => {
     return (
-        <div className='bg-[#7D0A0A] py-10'>
+        <div >
         <Container>
             <div>
          <h1 className="  text-4xl  text-[#FFFFE4] font-bold">Our Lawyers</h1>

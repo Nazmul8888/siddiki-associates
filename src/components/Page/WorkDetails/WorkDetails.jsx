@@ -17,7 +17,7 @@ const WorkDetails = () => {
         setIsActive((prevIdx) => (prevIdx === idx ? null : idx));
     };
     return (
-        <div className=" bg-[#7D0A0A]">
+        <div >
             <Container>
             <div>
          <h1 className="  text-5xl text-[#FFFFE4] text-center  font-bold">Our Achievement</h1>

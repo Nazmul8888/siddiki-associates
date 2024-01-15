@@ -10,7 +10,7 @@ import Container from '../../Hooks/Container';
 
 const Banner = () => {
     return (
-        <div className='bg-[#7D0A0A] '>
+        <div >
        <Container>
          <div>
            <div>

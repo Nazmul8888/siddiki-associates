@@ -5,7 +5,7 @@ import Container from '../../Hooks/Container';
 
 const AboutUs = () => {
     return (
-        <div className='bg-[#597E52] '>
+        <div >
         <Container>
        
          <div >

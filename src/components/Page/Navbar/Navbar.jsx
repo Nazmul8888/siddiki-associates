@@ -45,7 +45,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="bg-[#7D0A0A]">
+    <div >
     <Container>
     <div>
       <div className="  text-white ">
