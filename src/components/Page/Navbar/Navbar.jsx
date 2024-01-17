@@ -4,6 +4,8 @@ import { FaYoutube } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import Container from "../../Hooks/Container";
+import './navbar.css'
+
 
 
 const Navbar = () => {
@@ -42,16 +44,20 @@ const Navbar = () => {
       <li>
         <Link className=" hover:bg-[#FF004D]"  to="/contactUs">CONTACT US</Link>
       </li>
+      <li>
+        
+      </li>
     </>
   );
   return (
     <div >
     <Container>
-    <div>
+    <div> 
       <div className="  text-white ">
      
       <div className="navbar-center flex ">
-    <a className=" ml-96 text-center text-3xl font-bold ">SIDDIKI & ASSOCIATES</a>
+    <a className=" roboto-bold  cham-name  ml-40 ">SIDDIKI & ASSOCIATES</a>
+
     </div>
     <div>
       <div className=" flex justify-end items-center">
@@ -120,6 +126,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      
     </div>
     </Container>
     </div>
@@ -127,3 +134,46 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// toastr.options = {
+//   "closeButton": true,
+//   "debug": false,
+//   "newestOnTop": false,
+//   "progressBar": true,
+//   "positionClass": "toast-top-right",
+//   "preventDuplicates": false,
+//   "onclick": null,
+//   "showDuration": "300",
+//   "hideDuration": "1000",
+//   "timeOut": "5000",
+//   "extendedTimeOut": "1000",
+//   "showEasing": "swing",
+//   "hideEasing": "linear",
+//   "showMethod": "fadeIn",
+//   "hideMethod": "fadeOut"
+// }
+// const glightbox = GLightbox({
+//   selector: '.glightbox'
+// });
+// background: url(https://res.cloudinary.com/dioieuprs/image/upload/v1466688705/floating-menu/go2.png) no-repeat center center;
+//     background-size: 28px auto;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     margin: -31px 0 0 -31px;
+//     height: 109px;
+//     width: 142px;
+//     text-align: right;
+//     border-radius: 40px;
+//     -webkit-transform-origin: 31px 31px;
+//     -ms-transform-origin: 31px 31px;
+//     transform-origin: 31px 31px;
+//     -webkit-transition: all 1s ease 0.4s;
+//     transition: all 1s ease 0.4s;
+//     box-sizing: border-box;
+//     transform: rotate(270deg);
+
+
+
+
+    

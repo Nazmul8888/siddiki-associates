@@ -1,3 +1,4 @@
+import Contact from "../Contact/Contact";
 import AboutUs from "../Page/AboutUs/AboutUs";
 import Address from "../Page/Address/Address";
 import Banner from "../Page/Banner/Banner";
@@ -19,6 +20,8 @@ const Home = () => {
           <Blog></Blog>
           <WorkDetails></WorkDetails>
           <Address></Address>
+          <Contact></Contact>
+          
         </div>
     );
 };

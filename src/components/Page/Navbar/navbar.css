@@ -1,0 +1,43 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+  }
+  .cham-name {
+    
+}
+.cham-name {
+    /* font-family: algeria; */
+    /* color: #f5f2d0; */
+    font-size: 3.5em;
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding-top: 12px;
+    text-shadow: 3px 4px 4px #040404;
+    font-size: 3.5em;
+}
+
+/* .sb-ttl {
+    font-size: 16px;
+}
+.sb-ttl {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: algeria;
+} */
